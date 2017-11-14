@@ -11,13 +11,6 @@
             margin: 30px;
             padding: 10px;
         }
-
-        .img4 {
-            padding: 10px;
-            margin: 20px;
-        }
-
-       
     </style>
 </head>
 
@@ -25,13 +18,20 @@
 
     <a class="nav" href="index.html">Home</a>
     <header>
-        <h1>Contact us</h1>
+        <h1>Contact Us</h1>
     </header>
-    <div id="div3"> Phone: ###-###-####
-        <br> Email: cgoodma7@mail.naz.edu
-        <br> Social media information: <br> Facebook <br> Instagram
-        <br> Snapchat
+    <div class="contact-form">
+        <form method="get"> <label> First Name: <input type="text" name="fname" id="fname"></label>
+            <br>
+            <label> Last Name: <input type="text" name="lname" id="lname"></label><br>
+            <label> E-mail: <input type="text" name="email" id="email"></label>
+            <br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="coments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Contact"> <input type="reset">
+        </form>
     </div>
+    <br>
     <br>
     <q>When a hunter is in a treestand with moral values <br>and with the proper hunting ethics and richer for the experience,<br> that hunter is 20 feet closer to God. 
     </q><br>-Fred Bear

@@ -17,6 +17,7 @@ img {
     color: chartreuse;
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
+    
 }
 
 a:visited {
@@ -76,4 +77,12 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+.contact-form {
+    font-size: 20px;
+}
+
+.checkbox {
+    font-size: 15px:
 }

@@ -79,12 +79,9 @@ cite img {
     vertical-align: middle;
 }
 
-.contact-form {
-    font-size: 20px;
-}
 
 .checkbox {
-    font-size: 15px:
+    font-size: px:
 }
 
 .ul1 {
@@ -107,12 +104,5 @@ li a:hover {
     background-color: orange;
 }
 
-table {
-    border-spacing: 5px;
-    text-align: left;
-}
 
-th {
-    color: #fff;
-    padding right: 10px;
-}
+
